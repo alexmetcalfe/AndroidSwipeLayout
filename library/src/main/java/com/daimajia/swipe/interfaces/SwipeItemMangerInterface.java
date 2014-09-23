@@ -24,4 +24,8 @@ public interface SwipeItemMangerInterface {
     public SwipeItemMangerImpl.Mode getMode();
 
     public void setMode(SwipeItemMangerImpl.Mode mode);
+
+    public enum Mode{
+        Single, Multiple
+    };
 }

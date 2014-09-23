@@ -39,10 +39,6 @@ public class SwipeItemMangerImpl implements SwipeItemMangerInterface {
         this.mAdapter = adapter;
     }
 
-    public enum Mode{
-        Single, Multiple
-    };
-
     public Mode getMode(){
         return mode;
     }
