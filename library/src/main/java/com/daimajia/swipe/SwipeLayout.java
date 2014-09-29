@@ -88,6 +88,8 @@ public class SwipeLayout extends FrameLayout {
         mSwipeListeners.remove(l);
     }
 
+    public void removeAllSwipeListeners() { mSwipeListeners.clear(); }
+
     public static interface SwipeDenier {
 		/*
 		 * Called in onInterceptTouchEvent
